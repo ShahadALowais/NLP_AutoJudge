@@ -10,21 +10,21 @@ The dataset from this this project is from kaggle
 In total, the data consists of 3304 rows and 15 columns.
 | Columns        | Description  |
 | ------------- |:-------------:|
-| ID   | unique ID |
-| name      |      |
-| href|    |
-|docket| |
-|term||
-|first_party||
-|second_party| |
-|facts| |
-|facts_len| |
-|majority_vote||
-|minority_vote||
+| ID   | Unique ID for Case |
+| name      | Contains the names of the plaintiff and the defendant |
+| href|   Case details link |
+|docket| Docket number is the court's case number |
+|term|Year of filing the case|
+|first_party|First party name|
+|second_party| Second party name|
+|facts| The text of the lawsuit|
+|facts_len| The number of character  in the sentence|
+|majority_vote| Majority vote is more than half of the votes cast|
+|minority_vote|Minority vote is less than half of the votes cast|
 |first_party_winner|if true means that the first party won, and if false it means that the second party won|
-|decision_type||
-|disposition||
-|issue_area| |                                                           |
+|decision_type|The decision of the court |
+|disposition|The current status or final outcome|
+|issue_area| Cases types|                                                           |
 ## Tools :
 The main technologies and libraries that will be used are:
 - Technologies: Python ,Jupyter Notebook , Canva
