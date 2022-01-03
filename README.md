@@ -1,11 +1,17 @@
 # AutoJudge
+
 Artificial intelligence is being utilized in many domains , and the legal system is no exception.
 Under Vision 2030, Saudi Arabia aims to implement sweeping reforms to the legal system to eliminate inconsistency, speed up verdicts and make the Kingdom’s judicial institutions more efficient.
-Our project (AutoJudge) aims to predict the judgment results according to the information based on fact determination, which consists of the fact description, the basic information of defendant, and the court view.
+
+
+
+Our project (AutoJudge) aims to match similar court cases and predict the judgment results according to the information based on fact determination, which consists of the fact description, the basic information of defendant, and the court view.
 ## Question/Need :
-The main goal of this project is to build unsupervised learning models that predict the judgment results
+
+The main goal of this project is to build unsupervised learning models that matches similar court cases and supervised model to  predict the judgment results
 We are going to bulid different models and compare them to use the best model.
 ## Data Description :
+
 The dataset from this this project is from kaggle
 In total, the data consists of 3304 rows and 15 columns.
 | Columns        | Description  |
@@ -29,4 +35,3 @@ In total, the data consists of 3304 rows and 15 columns.
 The main technologies and libraries that will be used are:
 - Technologies: Python ,Jupyter Notebook , Canva
 - Libraries:Pandas,BeautifulSoup and ,Matplotlib ,Seaborn ,NumPy ,sklearn ,  NLTK , Feature extraction (TFIDF) Decomposition (NMF, LDA, LSA)
-
